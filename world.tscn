@@ -1,0 +1,69 @@
+[gd_scene load_steps=7 format=3 uid="uid://yi0g76fky3xh"]
+
+[ext_resource type="PackedScene" uid="uid://bwm3mtc7xwrss" path="res://player.tscn" id="1_kxdl8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tx0l7"]
+size = Vector2(1120.5, 147)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wvyom"]
+size = Vector2(146.5, 713.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h00f4"]
+size = Vector2(505.5, 39)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iuhl4"]
+size = Vector2(505.5, 39)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2rmem"]
+radius = 48.0104
+
+[node name="World" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_kxdl8")]
+position = Vector2(197, 119)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(197, 119)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(366.75, 442)
+shape = SubResource("RectangleShape2D_tx0l7")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-127, 13)
+shape = SubResource("RectangleShape2D_wvyom")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(857, 10)
+shape = SubResource("RectangleShape2D_wvyom")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(504.25, 147)
+shape = SubResource("RectangleShape2D_h00f4")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(201, -80)
+shape = SubResource("RectangleShape2D_iuhl4")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(222, 52)
+shape = SubResource("CircleShape2D_2rmem")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 144.0
+offset_top = 492.0
+offset_right = 987.0
+offset_bottom = 662.0
+
+[node name="Panel2" type="Panel" parent="."]
+visible = false
+offset_left = 449.0
+offset_top = 246.0
+offset_right = 954.0
+offset_bottom = 286.0
+
+[node name="Panel3" type="Panel" parent="."]
+offset_left = 146.0
+offset_top = 18.0
+offset_right = 650.0
+offset_bottom = 59.0

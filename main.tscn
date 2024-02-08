@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://ds22fle5gldj6"]
+
+[ext_resource type="Script" path="res://main.cs" id="1_tmbtx"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_tmbtx")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 503.0
+offset_top = 234.0
+offset_right = 658.0
+offset_bottom = 312.0
+text = "Play"
+metadata/_edit_use_anchors_ = true
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 506.0
+offset_top = 395.0
+offset_right = 661.0
+offset_bottom = 473.0
+text = "Quit"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

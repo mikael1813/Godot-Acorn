@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acorn", "Acorn.csproj", "{4172A3CC-99D7-4903-BBD5-ACFDA606E507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4172A3CC-99D7-4903-BBD5-ACFDA606E507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4172A3CC-99D7-4903-BBD5-ACFDA606E507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4172A3CC-99D7-4903-BBD5-ACFDA606E507}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{4172A3CC-99D7-4903-BBD5-ACFDA606E507}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{4172A3CC-99D7-4903-BBD5-ACFDA606E507}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{4172A3CC-99D7-4903-BBD5-ACFDA606E507}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4654EC0F-AFDF-42DA-A386-A95A92844B5A}
+	EndGlobalSection
+EndGlobal
